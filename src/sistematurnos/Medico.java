@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Usuario
+ * @author Victor Sanchez
  */
 class Medico
 {
@@ -24,7 +24,7 @@ class Medico
 
     public Medico(String nombre, String apellido, int DNI, int MN,
                   int MPE, ArrayList<Especialidad> especialidades,
-                  boolean estado, ArrayList<Horario> horario) 
+                  boolean estado, ArrayList<Horario> horario)
     {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -36,27 +36,27 @@ class Medico
         this.horario = horario;
     }
 
-    public String getNombre() 
+    public String getNombre()
     {
         return this.nombre;
     }
 
-    public void setNombre(String nombre) 
+    public void setNombre(String nombre)
     {
         this.nombre = nombre;
     }
 
-    public String getApellido() 
+    public String getApellido()
     {
         return this.apellido;
     }
 
-    public void setApellido(String apellido) 
+    public void setApellido(String apellido)
     {
         this.apellido = apellido;
     }
 
-    public int getDNI() 
+    public int getDNI()
     {
         return this.DNI;
     }
@@ -66,60 +66,64 @@ class Medico
         this.DNI = DNI;
     }
 
-    public int getMN() 
+    public int getMN()
     {
         return this.MN;
     }
 
-    public void setMN(int MN) 
+    public void setMN(int MN)
     {
         this.MN = MN;
     }
 
-    public int getMPE() 
+    public int getMPE()
     {
         return this.MPE;
     }
 
-    public void setMPE(int MPE) 
+    public void setMPE(int MPE)
     {
         this.MPE = MPE;
     }
 
-    public ArrayList<Especialidad> getEspecialidades() 
+    public ArrayList<Especialidad> getEspecialidades()
     {
         return this.especialidades;
     }
 
-    public void setEspecialidades(ArrayList<Especialidad> especialidades) 
+    public void setEspecialidades(ArrayList<Especialidad> especialidades)
     {
         this.especialidades = especialidades;
     }
 
-    public boolean isEstado() 
+    public boolean isEstado()
     {
         return this.estado;
     }
 
-    public void setEstado(boolean estado) 
+    public void setEstado(boolean estado)
     {
         this.estado = estado;
     }
 
-    public ArrayList<Horario> getHorario() 
+    public ArrayList<Horario> getHorario()
     {
         return this.horario;
     }
 
-    public void setHorario(ArrayList<Horario> horario) 
+    public void setHorario(ArrayList<Horario> horario)
     {
         this.horario = horario;
     }
-    
-    
+
+
     public String mostrar ()
     {
         return "Nombre: " + this.getNombre()
-                + "\nDNI" + this.getDNI();
+                + "\nDNI: " + this.getDNI()
+                + "\nM.N.: " + this.getMN()
+                + "\nM.P.: " + this.getMPE()
+                + "\nEstado: " + this.isEstado()
+                + "\nHorario: " + this.getHorario();
     }
 }

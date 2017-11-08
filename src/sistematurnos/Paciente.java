@@ -5,7 +5,7 @@ import java.util.GregorianCalendar;
 
 /**
  *
- * @author Usuario
+ * @author Victor Sanchez
  */
 public class Paciente {
 
@@ -76,87 +76,87 @@ public class Paciente {
         return nombre;
     }
 
-    public void setNombre(String nombre) 
+    public void setNombre(String nombre)
     {
         this.nombre = nombre;
     }
 
-    public String getApellido() 
+    public String getApellido()
     {
         return apellido;
     }
 
-    public void setApellido(String apellido) 
+    public void setApellido(String apellido)
     {
         this.apellido = apellido;
     }
 
-    public int getNumLegajo() 
+    public int getNumLegajo()
     {
         return numLegajo;
     }
 
-    public void setNumLegajo(int numLegajo) 
+    public void setNumLegajo(int numLegajo)
     {
         this.numLegajo = numLegajo;
     }
 
-    public GregorianCalendar getFechaNacimiento() 
+    public GregorianCalendar getFechaNacimiento()
     {
         return fechaNacimiento;
     }
 
-    public void setFechaNacimiento(GregorianCalendar fechaNacimiento) 
+    public void setFechaNacimiento(GregorianCalendar fechaNacimiento)
     {
         this.fechaNacimiento = fechaNacimiento;
     }
 
-    public char getSexo() 
+    public char getSexo()
     {
         return sexo;
     }
 
-    public void setSexo(char sexo) 
+    public void setSexo(char sexo)
     {
         this.sexo = sexo;
     }
 
-    public ObraSocial getOs() 
+    public ObraSocial getOs()
     {
         return os;
     }
 
-    public void setOs(ObraSocial os) 
+    public void setOs(ObraSocial os)
     {
         this.os = os;
     }
 
-    public ArrayList<Telefono> getTelefonos() 
+    public ArrayList<Telefono> getTelefonos()
     {
         return telefonos;
     }
 
-    public void setTelefonos(ArrayList<Telefono> telefonos) 
+    public void setTelefonos(ArrayList<Telefono> telefonos)
     {
         this.telefonos = telefonos;
     }
 
-    public ArrayList<Direccion> getDirecciones() 
+    public ArrayList<Direccion> getDirecciones()
     {
         return direcciones;
     }
 
-    public void setDirecciones(ArrayList<Direccion> direcciones) 
+    public void setDirecciones(ArrayList<Direccion> direcciones)
     {
         this.direcciones = direcciones;
     }
 
-    public ArrayList<HistoriaClinica> getHc() 
+    public ArrayList<HistoriaClinica> getHc()
     {
         return hc;
     }
 
-    public void setHc(ArrayList<HistoriaClinica> hc) 
+    public void setHc(ArrayList<HistoriaClinica> hc)
     {
         this.hc = hc;
     }

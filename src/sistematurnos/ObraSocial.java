@@ -2,7 +2,7 @@ package sistematurnos;
 
 /**
  *
- * @author Usuario
+ * @author Victor Sanchez
  */
 public class ObraSocial {
     private String nombre;
@@ -28,9 +28,8 @@ public class ObraSocial {
     public void setNumSocio(String numSocio) {
         this.numSocio = numSocio;
     }
-    
+
     public String mostrar(){
         return this.getNombre() + " - Nº socio: " + this.getNumSocio();
     }
-    
 }

@@ -3,7 +3,7 @@ package sistematurnos;
 /**
  * Esta clase permite crear objetos direccion segun leyes argentinas
  *
- * @author Yo
+ * @author Victor Sanchez
  */
 public class Direccion {
 

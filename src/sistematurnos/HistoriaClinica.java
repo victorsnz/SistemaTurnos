@@ -4,7 +4,7 @@ import java.util.GregorianCalendar;
 
 /**
  *
- * @author Usuario
+ * @author Victor Sanchez
  */
 class HistoriaClinica {
 
@@ -14,7 +14,7 @@ class HistoriaClinica {
     private Medico medico;
     private Paciente paciente;
 
-    public HistoriaClinica(int num, String descripcion, GregorianCalendar fecha, 
+    public HistoriaClinica(int num, String descripcion, GregorianCalendar fecha,
             Medico medico, Paciente paciente) {
         this.num = num;
         this.descripcion = descripcion;
@@ -69,5 +69,4 @@ class HistoriaClinica {
     public void setPaciente(Paciente paciente) {
         this.paciente = paciente;
     }
-
 }
